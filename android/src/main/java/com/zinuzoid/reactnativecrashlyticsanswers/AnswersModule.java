@@ -1,5 +1,7 @@
 package com.zinuzoid.reactnativecrashlyticsanswers;
 
+import android.util.Log;
+
 import com.crashlytics.android.answers.Answers;
 import com.crashlytics.android.answers.CustomEvent;
 import com.facebook.react.bridge.ReactApplicationContext;
@@ -20,6 +22,9 @@ public class AnswersModule extends ReactContextBaseJavaModule {
     @ReactMethod
     public void logEvent(String eventName) {
         Answers.getInstance().logCustom(new CustomEvent(eventName));
+        if (BuildConfig.DEBUG) {
+            Log.d(getName(), "logEvent: " + eventName);
+        }
     }
 
 }
