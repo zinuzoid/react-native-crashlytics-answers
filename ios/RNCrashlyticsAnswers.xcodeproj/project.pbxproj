@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		91C78B01875B9ECA5E15FF86 /* Pods_RNCrashlyticsAnswers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46E0631591C52A06891755D /* Pods_RNCrashlyticsAnswers.framework */; };
+		B1770E571E2E392000B2E98E /* RNAnswers.m in Sources */ = {isa = PBXBuildFile; fileRef = B1770E561E2E392000B2E98E /* RNAnswers.m */; };
 		B1CE87651E2CE997000F4FE5 /* RNCrashlytics.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CE87641E2CE997000F4FE5 /* RNCrashlytics.m */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,8 @@
 		05A8226C27DD30326D6A1F5B /* Pods-RNCrashlyticsAnswers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNCrashlyticsAnswers.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNCrashlyticsAnswers/Pods-RNCrashlyticsAnswers.release.xcconfig"; sourceTree = "<group>"; };
 		134814201AA4EA6300B7C361 /* libRNCrashlyticsAnswers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNCrashlyticsAnswers.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6577CECB62EC3D98316CA8ED /* Pods-RNCrashlyticsAnswers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNCrashlyticsAnswers.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNCrashlyticsAnswers/Pods-RNCrashlyticsAnswers.debug.xcconfig"; sourceTree = "<group>"; };
+		B1770E551E2E392000B2E98E /* RNAnswers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNAnswers.h; sourceTree = "<group>"; };
+		B1770E561E2E392000B2E98E /* RNAnswers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNAnswers.m; sourceTree = "<group>"; };
 		B1CE87631E2CE997000F4FE5 /* RNCrashlytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCrashlytics.h; sourceTree = "<group>"; };
 		B1CE87641E2CE997000F4FE5 /* RNCrashlytics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCrashlytics.m; sourceTree = "<group>"; };
 		B46E0631591C52A06891755D /* Pods_RNCrashlyticsAnswers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNCrashlyticsAnswers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +66,8 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				B1770E551E2E392000B2E98E /* RNAnswers.h */,
+				B1770E561E2E392000B2E98E /* RNAnswers.m */,
 				B1CE87631E2CE997000F4FE5 /* RNCrashlytics.h */,
 				B1CE87641E2CE997000F4FE5 /* RNCrashlytics.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
@@ -172,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1CE87651E2CE997000F4FE5 /* RNCrashlytics.m in Sources */,
+				B1770E571E2E392000B2E98E /* RNAnswers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

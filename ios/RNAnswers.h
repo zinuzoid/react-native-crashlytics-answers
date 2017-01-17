@@ -1,13 +1,13 @@
 //
-//  RNCrashlytics.h
+//  RNAnswers.h
 //  RNCrashlyticsAnswers
 //
-//  Created by Jetsada Machom on 1/16/2560 BE.
+//  Created by Jetsada Machom on 1/17/2560 BE.
 //  Copyright © 2560 Facebook. All rights reserved.
 //
 
 #import "RCTBridgeModule.h"
 
-@interface RNCrashlytics : NSObject <RCTBridgeModule>
+@interface RNAnswers : NSObject <RCTBridgeModule>
 
 @end
