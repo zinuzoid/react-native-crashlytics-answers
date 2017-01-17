@@ -1,7 +1,7 @@
 {
   "name": "react-native-crashlytics-answers",
   "author": "Jetsada Machom <zinuzoid@gmail.com>",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "React native wrapper for Fabric's Crashlytics and Answers",
   "main": "index.js",
   "scripts": {
