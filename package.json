@@ -11,10 +11,13 @@
     "react-native": ">=0.16.0"
   },
   "keywords": [
+    "react-native",
+    "react-component",
+    "android",
+    "ios",
     "fabric",
     "crashlytics",
-    "answers",
-    "react-native"
+    "answers"
   ],
   "license": "GPL-3.0",
   "bugs": {
