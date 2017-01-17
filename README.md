@@ -108,7 +108,7 @@ import Fabric from 'react-native-crashlytics-answers'
 Fabric.Crashlytics.crash()
 Fabric.Crashlytics.setUserIdentify('LEET')
 Fabric.Crashlytics.setUserName('Jimmy Fab')
-Fabric.Crashlytics.setUserEmail('zinuzoid@gmail.com')
+Fabric.Crashlytics.setUserEmail('jimmy@not.valid')
 Fabric.Crashlytics.logError('error: API response 500')
 
 Fabric.Answers.logEvent('login.success')
